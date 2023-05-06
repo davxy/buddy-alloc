@@ -1,2 +1,3 @@
-# buddy-alloc
-Buddy Allocator
+# Buddy Allocator
+
+Simple Buddy Allocator
