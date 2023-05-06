@@ -6,6 +6,8 @@ TARGET := buddy
 .PHONY: all
 all: $(TARGET)
 
+$(TARGET): main.o buddy.o
+
 .PHONY: clean
 clean:
-	rm -rf $(TARGET)
+	rm -rf $(TARGET) *.o
